@@ -1,13 +1,10 @@
-
-{
-  "packageManager": "pnpm@8.15.3" // Use your exact pnpm version
-}
 {
   "name": "javbus-api",
   "version": "2.1.2",
   "description": "JavBus API",
   "main": "index.js",
   "homepage": "https://github.com/ovnrain/javbus-api#readme",
+  "packageManager": "pnpm@8.15.3",  // [!code ++]
   "scripts": {
     "start": "node -r dotenv/config dist/server.js",
     "dev": "tsx watch --clear-screen=false -r dotenv/config api/server.ts",
